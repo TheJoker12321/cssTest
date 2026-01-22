@@ -7,6 +7,66 @@
     <link rel="stylesheet" href="./images.css">
 </head>
 <body>
+
+    <header>
+        <nav class="navbar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M11.745 14.85L6.905 12V7c0-2.21 1.824-4 4.076-4c1.397 0 2.63.69 3.365 1.741"/><path d="M9.6 19.18A4.1 4.1 0 0 0 13.02 21c2.25 0 4.076-1.79 4.076-4v-5L12.16 9.097"/><path d="M9.452 13.5V7.67l4.412-2.5c1.95-1.105 4.443-.45 5.569 1.463a3.93 3.93 0 0 1 .076 3.866"/><path d="M4.49 13.5a3.93 3.93 0 0 0 .075 3.866c1.126 1.913 3.62 2.568 5.57 1.464l4.412-2.5l.096-5.596"/><path d="M17.096 17.63a4.09 4.09 0 0 0 3.357-1.996c1.126-1.913.458-4.36-1.492-5.464l-4.413-2.5l-5.059 2.755"/><path d="M6.905 6.37a4.09 4.09 0 0 0-3.358 1.996c-1.126 1.914-.458 4.36 1.492 5.464l4.413 2.5l5.048-2.75"/></g></svg>
+            <button class="menuChat">
+                ChatGPT
+            </button>
+            <svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9l6 6l6-6"/></svg>
+            <button class="logIn">Log in</button>
+            <button class="signup">Sign up for free</button>
+            <svg id="help" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M11.95 18q.525 0 .888-.363t.362-.887t-.362-.888t-.888-.362t-.887.363t-.363.887t.363.888t.887.362m-.9-3.85h1.85q0-.825.188-1.3t1.062-1.3q.65-.65 1.025-1.238T15.55 8.9q0-1.4-1.025-2.15T12.1 6q-1.425 0-2.312.75T8.55 8.55l1.65.65q.125-.45.563-.975T12.1 7.7q.8 0 1.2.438t.4.962q0 .5-.3.938t-.75.812q-1.1.975-1.35 1.475t-.25 1.825M12 22q-2.075 0-3.9-.787t-3.175-2.138T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8"/></svg>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1 id="title">Images</h1>
+            <div>
+                <h2>Try a style on an image</h2>
+                <button class="arrow" id="arrow-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24"><defs><path id="SVG1pzpbdYY" fill="currentColor" d="m7.588 12.43l-1.061 1.06L.748 7.713a.996.996 0 0 1 0-1.413L6.527.52l1.06 1.06l-5.424 5.425z"/></defs><use fill-rule="evenodd" href="#SVG1pzpbdYY" transform="rotate(-180 5.02 9.505)"/></svg>
+                </button>
+                <button class="arrow" id="arrow-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24"><defs><path id="SVG1pzpbdYY" fill="currentColor" d="m7.588 12.43l-1.061 1.06L.748 7.713a.996.996 0 0 1 0-1.413L6.527.52l1.06 1.06l-5.424 5.425z"/></defs><use fill-rule="evenodd" href="#SVG1pzpbdYY" transform="rotate(-180 5.02 9.505)"/></svg>
+                </button>
+                <img class="images" id="sketch" src="./images/sketch-8360856_1280.jpg">
+                <img class="images" id="dramatic" src="./images/OIP (6).webp">
+                <img class="images" id="plushie" src="./images/il_1588xN.3302457551_qsau.avif">
+                <img class="images" id="retro-anime" src="./images/retro-anime-kol53evzff953yx5.jpg">
+                <img class="images" id="baseball-bobblehead" src="./images/il_570xN.3961295839_ny8i.avif">
+                <img class="images" id="doodle" src="./images/R.jpg">
+                <div id="category">
+                    <span class="categories" id="category-sketch">Sketch</span>
+                    <span class="categories" id="category-dramatic">Dramatic</span>
+                    <span class="categories" id="category-plushie">Plushie</span>
+                    <span class="categories" id="category-retro">Retro anime</span>
+                    <span class="categories" id="category-baseball">Baseball-bobblehead</span>
+                    <span class="categories" id="category-doodle">Doodle</span>
+                </div>
+            </div>
+        </article>
+
+        <section>
+            <h1 id="discover">Discover something new</h1>
+            <div>
+                <img class="discovers" id="image-pearl" src="./images/me-as-the-girl-with-a-pearl.webp">
+                <span id="span-pearl">Me as The Girl with a Pearl</span>
+                <img class="discovers" id="image-remove" src="./images/il_fullxfull.5972035914_bwul.webp">
+                <span id="span-remove">Remove people in the background</span>
+                <img class="discovers" id="image-pop" src="./images/OIP (7).webp">
+                <span id="span-pop">What would I look like as a K-Pop star</span>
+                <img class="discovers" id="image-professional" src="./images/OIP (8).webp">
+                <span id="span-professional">Create a professional product photo</span>
+                <img class="discovers" id="image-style" src="./images/OIP (9).webp">
+                <span id="span-style">Style me</span>
+                <img class="discovers" id="image-turn" src="./images/turn-into-a-keychain.webp">
+                <span id="span-turn">Turn into a keychain</span>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>

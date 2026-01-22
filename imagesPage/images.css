@@ -1,0 +1,240 @@
+body {
+
+    margin: 0px;
+    padding: 0%;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(255, 192, 203, 0.493);
+
+}
+
+.navbar {
+
+
+    margin: 10px;
+
+}
+
+#menuIcon {
+
+    position: absolute;
+    left: 125px;
+    top: 13px;
+    cursor: pointer;
+    background-color: white;
+    padding: 1.5px;
+}
+
+.menuChat {
+
+    position: absolute;
+    top: 10px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    margin: 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.logIn {
+
+    position: absolute;
+    right: 12%;
+    top: 14px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.signup {
+
+    position: absolute;
+    right: 3.5%;
+    top: 14px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: rgba(128, 128, 128, 0.199);
+    background-color: white;
+}
+
+#help {
+
+    position: absolute;
+    top: 13px;
+    right: 1%;
+    height: 40px;
+    width: 40px;
+
+}
+
+main {
+
+    height: 800px;  
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
+
+    
+}
+
+#arrow-left {
+
+    rotate: 180deg;
+    position: absolute;
+    top: 80px;
+    right: 28px;
+
+}
+
+#arrow-right {
+
+    position: absolute;
+    top: 80px;
+    right: 1px;
+}
+
+.arrow {
+
+    
+    border-radius: 100%;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+
+}
+
+.images {
+
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+#doodle {right: 1%;}
+#baseball-bobblehead {right: 150px;}
+#retro-anime {right: 290px;}
+#plushie {right: 430px;}
+#dramatic {right: 570px;}
+
+#category {
+
+    position: absolute;
+    top: 350px;
+    width: 800px;
+}
+
+.categories {
+
+    position: absolute;
+
+}
+
+#category-sketch {right: 730px;}
+#category-dramatic {right: 590px;}
+#category-plushie {right: 455px;}
+#category-retro {right: 300px;}
+#category-baseball {right: 135px;}
+#category-doodle {right: 35px;}
+
+
+#discover {
+
+    position: absolute;
+    bottom: 300px;
+}
+
+.discovers {
+
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+
+}
+
+#image-pearl {
+
+    bottom: 250px;
+}
+
+#image-remove {
+
+    bottom: 150px;
+    left: 0px;
+
+}
+
+#image-pop {
+
+    bottom: 50px;
+    left: 0px;
+
+}
+
+#image-professional {
+
+    bottom: 250px;
+    left: 450px;
+
+}
+
+#image-style {
+
+    bottom: 150px;
+    left: 450px;
+}
+
+#image-turn {
+
+    bottom: 50px;
+    left: 450px;
+
+}
+
+
+#span-pearl {
+    
+    position: absolute;
+    bottom: 265px;
+    left: 60px;
+}
+
+#span-remove {
+    position: absolute;
+    bottom: 165px;
+    left: 60px;
+}
+#span-pop {
+    position: absolute;
+    bottom: 65px;
+    left: 60px;
+}
+#span-professional {
+
+    position: absolute;
+    bottom: 265px;
+    left: 510px;
+}
+#span-style {
+
+    position: absolute;
+    bottom: 165px;
+    left: 510px;
+}
+#span-turn {
+
+    position: absolute;
+    bottom: 65px;
+    left: 510px;
+}
