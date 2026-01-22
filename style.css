@@ -1,0 +1,189 @@
+body {
+
+    margin: 0px;
+    padding: 0%;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.navbar {
+
+
+    margin: 10px;
+
+}
+
+#menuIcon {
+
+    position: absolute;
+    left: 125px;
+    top: 13px;
+    cursor: pointer;
+}
+
+.menuChat {
+
+    position: absolute;
+    top: 10px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    margin: 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.option {
+
+    position: absolute;
+    display: inline-block;
+    top: 13px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+#about {left: 30%;}
+#feature {left: 33.5%;}
+#learn {left: 38%;}
+#business {left: 41.5%;}
+#pricing {left: 46.5%;}
+#images {left: 50.5%;}
+#download {left: 54.5%;}
+
+.logIn {
+
+    position: absolute;
+    right: 12%;
+    top: 14px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.signup {
+
+    position: absolute;
+    right: 3.5%;
+    top: 14px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: rgba(128, 128, 128, 0.199);
+    background-color: white;
+}
+
+#help {
+
+    position: absolute;
+    top: 13px;
+    right: 1%;
+    height: 40px;
+    width: 40px;
+
+}
+
+main {
+
+    height: 600px;  
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
+    
+
+    
+}
+#questions {
+    background-color: white;
+    height: 500px;
+}
+
+#title {
+
+    position: absolute;
+    top: 200px;
+    left: 150px;
+
+}
+
+#input-question {
+
+    position: absolute;
+    top: 9px;
+    bottom: 63px;
+    left: 2.5px;
+    border: none;
+    border-radius: 50px;
+    height: 70px;
+    width: 700px;
+    outline: none;
+
+}
+
+.input {
+
+    position: absolute;
+    border: 1px solid;
+    left: 30px;
+    bottom: 200px;
+    height: 120px;
+    width: 710px;
+    border-radius: 25px;
+    border-color: rgba(128, 128, 128, 0.432);
+}
+
+.features {
+
+    height: 40px;
+    width: 100px;
+    border: 1px solid rgba(128, 128, 128, 0.253);
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.buttons {
+
+    position: absolute;
+    width: 710px;
+    bottom: 208px;
+    left: 34px;
+}
+
+.icon {
+
+    position: absolute;
+    top: 9px;
+}
+
+#attach {left: 3px;}
+#search {left: 111px;}
+#study {left: 212px;}
+#image-button {
+
+    width: 140px;
+}
+#image {height: 20px;
+    width: 20px;
+    left: 317px;}
+#voice-button {
+
+    position: absolute;
+    right: 1%;
+}
+
+#voice {left: 3px;}
